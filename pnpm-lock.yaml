@@ -15,6 +15,16 @@ importers:
         specifier: 19.5.6
         version: 19.5.6
 
+  packages/awesome:
+    dependencies:
+      utils:
+        specifier: 1.1.0
+        version: link:../utils
+
+  packages/private: {}
+
+  packages/utils: {}
+
 packages:
 
   '@ampproject/remapping@2.3.0':
